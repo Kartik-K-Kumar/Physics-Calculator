@@ -6,6 +6,7 @@ print("Write Exit to exit the system")
 equationNum = input("What type of Equation would you like to use? ")
 while equationNum != "Exit":
   if equationNum == 1:
+    # Stress caculator
     Force = float(input("Enter the force in Newtons (N)" ))
     Area = float(input("Enter the Area in m^2"))
     Stress = Force/Area
@@ -17,6 +18,7 @@ while equationNum != "Exit":
     Strain = NewLength/OriginalLenght
     print("The Strain is: " + str(Strain))
   else-if equationNum==3:
+    # Young Modulus caculator
     Force = float(input("What is the force applied: "))
     Area = float(input("What is the cross sectional area: "))
     Stress = Force/Area
