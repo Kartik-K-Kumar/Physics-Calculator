@@ -10,6 +10,23 @@ while equationNum != "Exit":
     Area = float(input("Enter the Area in m^2"))
     Stress = Force/Area
     print("The Stress also known as pressure, for when the force is: "+ str(Force) +" and the the Area is: "+ str(Area) + "is " + str(Stress))
+    # Strain calculator
+  else-if equationNum==2:
+    OriginalLenght = float(input("Enter the original length of the material (the length before extending it) ")) 
+    NewLength = float(input("Enter the new length after extending the material "))
+    Strain = NewLength/OriginalLenght
+    print("The Strain is: " + str(Strain))
+  else-if equationNum==3:
+    Force = float(input("What is the force applied: "))
+    Area = float(input("What is the cross sectional area: "))
+    Stress = Force/Area
+    OriginalLenght = float(input("Enter the original length of the material (the length before extending it) ")) 
+    NewLength = float(input("Enter the new length after extending the material "))
+    Strain = NewLength/OriginalLenght
+    print("The Stress is: " + str(Stress))
+    print("Young Modulus")
+    YoungMod = Stress/Strain
+    print("Young Modulus is: " + str(YoungMod))
   else:
     print("Ok")
 print("Thanks for using the Physics-Calculator")
