@@ -1,7 +1,7 @@
 print("Equations to ask for below:")
 print("1. Stress or pressure")
 print("2.  Strain")
-print("3. Young Moduls")
+print("3. Young Modulus")
 Run = 0
 print("Write Exit to exit the system")
 equationNum = input("What type of Equation would you like to use? ")
