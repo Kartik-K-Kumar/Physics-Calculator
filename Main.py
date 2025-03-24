@@ -2,6 +2,8 @@ print("Equations to ask for below:")
 print("1. Stress or pressure")
 print("2. Strain")
 print("3. Young Modulus")
+print("4. Weight")
+print("5. Charge")
 print("Write Exit to exit the system")
 
 while True:
@@ -35,7 +37,19 @@ while True:
         YoungMod = Stress / Strain
         print(f"The Stress is: {Stress} Pa")
         print(f"Young's Modulus is: {YoungMod} Pa")
-
+    elif equationNum == "4":
+        #Weight calculator
+        Mass = float(input("Whats the mass of the object? "))
+        Gravity = float(input("Enter the gravity: "))
+        Weight = Mass*Gravity
+        print(f"The Weight is: {Weight} N")
+    elif equationNum == "5":
+        #Charge Calculator
+        #Q=it
+        Current = float(input("Whats the current? "))
+        Time = float(input("Whats the time for the current to pass through? "))
+        Charge = Current * Time
+        print(f"The charge is :{Charge}C")
     else:
         print("Invalid choice. Please enter 1, 2, 3, or 'Exit'.")
 
