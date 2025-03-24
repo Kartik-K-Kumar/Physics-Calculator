@@ -13,7 +13,8 @@ The current Equations that are here are:
 - Hooke's Law: Spring Constant * Extension
 
 
-_Update 24/-3/2025_
+_Update 24/03/2025_
+
 **New equations:**
 * Charge
 * Weight
