@@ -14,7 +14,7 @@ The current Equations that are here are:
 
 
 _Update 24/-3/2025_
-**New equations: **
+**New equations:**
 * Charge
 * Weight
 
