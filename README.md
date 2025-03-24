@@ -12,5 +12,15 @@ The current Equations that are here are:
 - Elastic Strain Energy: (1/2) * Spring Constant * (Change in X)^2
 - Hooke's Law: Spring Constant * Extension
 
+
+_Update 24/-3/2025_
+**New equations: **
+* Charge
+* Weight
+
+_Future updates_
+- 5 new equations
+- Able to change what variable is the subject
+
 The calculator will expand its library of equations above.
 **_But for the meantime, enjoy_**
